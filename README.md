@@ -1,0 +1,1 @@
+The Cash Register project simulates a cash register that calculates change due after a purchase. It allows the user to input the amount of cash given by the customer and determines if it is sufficient to cover the price of an item. If so, it calculates the change due and updates the display to show the amount of each denomination in the cash drawer.
