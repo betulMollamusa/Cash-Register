@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #0a0a23; /* Koyu mavi arka plan */
+    color: #dfdfe2; /* Açık gri */
+    font-family: Arial, sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #feac32; 
+    margin-bottom: 20px;
+  }
+  
+  .input-div {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #dfdfe2;
+  }
+  
+  .user-input {
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #dfdfe2;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #feac32;
+    color: #0a0a23;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #ffac33;
+  }
+  
+  #change-due {
+    font-size: 16px;
+    color: #dfdfe2;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #price-screen {
+    border: 2px solid #99c9ff;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  #cash-drawer-display {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .bottom-register {
+    background-color: #99c9ff;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+  }
+  
